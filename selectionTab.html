@@ -1,0 +1,47 @@
+<!doctype html>
+<!--Selection tab-->
+<html>
+<head>
+<meta charset="utf-8">
+<title>selectionTab</title>
+</head>
+
+<body>
+<!-- selection tab section start -->
+<section class="header">
+   <div class="flex">
+	  <!-- link the logo to home page -->
+      <a href="index.php">
+		<img src="Pictures/Cinta Malaysia Logo.png" width="100" height="70" alt="Cinta Malaysia Home page"/></a>
+      <p class="logo">CINTA MALAYSIA</p>
+      <div id="menu-btn" class="fas fa-bars"></div>
+   </div>
+	<!-- Selection Tab's selection -->
+   <nav class="navbar">
+	   <a href="index.php">Home</a>
+	   <a href="About_Us.php">About</a>
+	   <!-- Drop Down content for membership -->
+	   <div class="dropdown">
+    	<button class="dropbtn"><a href="LoginNregister.php">Membership</a></button>
+  		<div class="dropdown-content">
+		 <a href="dashboard.php">Log in</a>
+		 <a href="register.php">New User</a>
+		 <a href="Login (Admin).php">Admin</a>
+		 <a href="logout.php">Log out</a> 
+	  </div>
+	  </div>
+      <a href="Room(unsort).php">Find a Room</a>
+	  <a href="MYBookings.php">My Bookings</a>
+   </nav>
+</section>
+<!-- selection tab section end -->
+<script>
+/*Java Script for NavBar(SelectionTab) slider*/
+let navbar = document.querySelector('.header .navbar');
+
+document.querySelector('#menu-btn').onclick = () =>{
+   navbar.classList.toggle('active');
+}
+</script>
+</body>
+</html>
