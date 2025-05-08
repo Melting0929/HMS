@@ -11,7 +11,7 @@ This is a Hotel Management Website developed for **Cinta Malaysia**. The purpose
 
 ## Live Demo
 
-- [Web Application Live Demo](http://localhost/Assignment(Chan%20Mei%20Ting_SUKD2101220)/index.php)
+- [Web Application Live Demo](http://cintamalaysia.rf.gd/)
 
 - Username: Prego
 - Password: Prego123
